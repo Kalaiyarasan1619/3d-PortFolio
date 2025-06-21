@@ -1,4 +1,6 @@
-import { meta, shopify, starbucks, tesla , hero} from "../assets/images";
+import { meta, shopify, starbucks, tesla , hero
+
+} from "../assets/images";
 
 import {
     car,
@@ -26,6 +28,14 @@ import {
     threads,
     typescript
 } from "../assets/icons";
+
+import java from '../assets/images/java.png'
+import springboot from "../assets/images/spring.png"
+import mysql from "../assets/images/mysql.png"
+import postgresql from "../assets/images/postgresql.png"
+import vuejs from "../assets/images/vuejs.png"
+
+
 
 export const skills = [
     {
@@ -76,6 +86,32 @@ export const skills = [
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
+    },
+
+     {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
+    },
+     {
+        imageUrl: springboot,
+        name: "Spring Boot",
+        type: "Backend",
+    },
+       {
+        imageUrl: mysql,
+        name: "MySQL DataBase",
+        type: "DataBase",
+    },
+       {
+        imageUrl: postgresql,
+        name: "PostgreSQL DataBase",
+        type: "DataBase",
+    },
+       {
+        imageUrl: vuejs,
+        name: "Vue JS",
+        type: "Front End",
     },
     
 ];

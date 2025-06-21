@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 // Assuming you have a logo image in your assets
-import { logo } from "../assets/images";
+import logo from "../assets/images/k.png";
 
 const Navbar = () => {
   return (
@@ -10,6 +10,10 @@ const Navbar = () => {
     <header className="absolute top-0 left-0 z-10 w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
         {/* Logo link, restored and styled */}
+
+        <NavLink to="/">
+          <img src={logo} alt="logo" className="w-18 h-18 object-contain" />
+        </NavLink>
 
         {/* Navigation links */}
         <nav className="flex text-lg gap-7 font-medium">
